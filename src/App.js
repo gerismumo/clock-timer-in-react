@@ -24,7 +24,7 @@ const App = () => {
       audioRef.current.play();
       setTimeout(() =>{
         audioRef.current.pause();
-      }, 10000);
+      }, 1000);
       if(timerLabel === 'Session') {
         setTimerlabel('Break');
         setTimeLeft(breakLength * 60);
